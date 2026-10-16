@@ -47,12 +47,7 @@ frame_1800.jpg
 
 Download **`VidStills.dmg`** from the [Releases](../../releases) page, open it, and drag **VidStills** into **Applications**.
 
-The free build is not notarised by Apple, so the first time you open it macOS will say it can't verify the developer. To open it anyway:
-
-1. Try to open VidStills once, then click **Done** on the warning.
-2. Open **System Settings → Privacy & Security**, scroll down, and click **Open Anyway** next to VidStills.
-
-You only need to do this once.
+The app is signed with a Developer ID and notarised by Apple, so it opens like any other Mac app, with no security warnings.
 
 ### Option 2: build it yourself (2 minutes)
 

@@ -9,6 +9,7 @@ The first public release of VidStills: drag in a video and save every frame as a
 - Sequential `AVAssetReader` extraction that keeps native resolution and turns rotated footage upright, saving JPEG at quality 0.9
 - Sandboxed, offline, no analytics
 - MIT licence
+- `VidStills.dmg`: signed with a Developer ID and notarised by Apple, so it opens without security warnings
 
 ## Fixes since the private version
 
@@ -18,5 +19,4 @@ The first public release of VidStills: drag in a video and save every frame as a
 
 ## Not included
 
-- A notarised installer. Any release build is ad-hoc signed, so macOS asks you to approve it once (see the README).
-- Any Apple signing certificate, Team ID, private path or development history.
+- Any Apple signing certificate, private key, private path or development history in the source code. Signing is applied only to the downloadable build.
