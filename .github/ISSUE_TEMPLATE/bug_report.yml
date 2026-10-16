@@ -1,0 +1,37 @@
+name: Bug report
+description: Report a reproducible problem in VidStills.
+title: "bug: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: "Please don't attach private videos or personal paths. A short test clip that shows the problem is ideal."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe what you saw and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Drop a ... video\n2. ...\n3. ..."
+    validations:
+      required: true
+  - type: input
+    id: video
+    attributes:
+      label: Video details
+      description: Container/codec (e.g. MOV, HEVC), resolution, frame rate, length.
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: macOS version, Mac model/chip, and VidStills version or commit.
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: The error message or screen, if helpful.
